@@ -1,0 +1,25 @@
+name: Validate
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  renderer:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: linkedin-infographics/assets/renderer
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: linkedin-infographics/assets/renderer/package-lock.json
+      - run: npm ci
+      - run: npm run check

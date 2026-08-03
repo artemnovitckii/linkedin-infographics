@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Infographics"
+  short_description: "Turn rough ideas into animated LinkedIn graphics"
+  default_prompt: "Use $linkedin-infographics to show layout wireframes for this source, then turn my chosen direction into a publish-ready animated LinkedIn infographic."

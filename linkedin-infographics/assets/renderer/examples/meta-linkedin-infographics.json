@@ -1,0 +1,68 @@
+{
+  "slug": "automate-linkedin-infographics",
+  "layout": "journey-rail",
+  "eyebrow": "Skill-powered flow · 001",
+  "titleLead": "How to automate",
+  "titleAccent": "LinkedIn infographics",
+  "subtitle": "Install linkedin-infographics. Run it in Claude Code or Codex.",
+  "inputLabel": "Feed the skill",
+  "inputTags": ["Topic", "Post", "Transcript", "Notes"],
+  "outputLabel": "Post pack ready",
+  "compatibility": {
+    "label": "Works in both",
+    "tools": ["claude-code", "codex"]
+  },
+  "author": {
+    "name": "Artem Novitckii",
+    "label": "Newsletter",
+    "plug": "novitckii.com",
+    "avatar": "avatars/artem-novitckii.png"
+  },
+  "steps": [
+    {
+      "phase": "Setup",
+      "title": "Install linkedin-infographics skill",
+      "description": "Use the same skill in Claude Code or Codex.",
+      "output": "Works in both",
+      "visual": "template"
+    },
+    {
+      "phase": "Input",
+      "title": "Add your source material",
+      "description": "Start with a topic, LinkedIn post, transcript, URL or messy notes.",
+      "output": "Source added",
+      "visual": "source"
+    },
+    {
+      "phase": "Layout",
+      "title": "Choose a wireframe",
+      "description": "Preview all four structures, then lock the best one before final copy.",
+      "output": "A · Journey rail",
+      "visual": "layout"
+    },
+    {
+      "phase": "Build",
+      "title": "Generate and animate",
+      "description": "The skill writes five beats, fills the template and animates the reading order.",
+      "output": "10 sec GIF",
+      "visual": "motion"
+    },
+    {
+      "phase": "Export",
+      "title": "Export the complete post pack",
+      "description": "Get the GIF, cover, caption, editable source and QA report.",
+      "output": "Ready to post",
+      "visual": "export"
+    }
+  ],
+  "metrics": [
+    {"value": "1 SKILL", "label": "Claude Code + Codex"},
+    {"value": "4 LAYOUTS", "label": "Pick before final copy"},
+    {"value": "5 FILES", "label": "GIF / cover / copy / QA"}
+  ],
+  "footerLeft": "Want the exact skill?",
+  "footerRight": "linkedin-infographics",
+  "cta": "Comment \"SKILL\"",
+  "footerMode": "conversion",
+  "caption": "I turned LinkedIn infographic design into a reusable skill.\n\nThe animated infographic attached to this post was made with it.\n\nIt is called linkedin-infographics, and it works in both Claude Code and Codex.\n\nGive it a topic, LinkedIn post, transcript or rough notes. The skill turns the source into five useful beats, lets you choose one of four wireframes, then animates and checks the final asset.\n\nIt handles:\n\nStory structure.\nLayout selection.\nVisual population.\nMotion and timing.\nExport and QA.\n\nThe final package includes the GIF, cover image, caption, editable content and QA report.\n\nI am turning the complete build into a YouTube tutorial.\n\nComment “SKILL” and I will share linkedin-infographics."
+}

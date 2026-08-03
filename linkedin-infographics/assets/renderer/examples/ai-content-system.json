@@ -1,0 +1,58 @@
+{
+  "slug": "ai-content-system",
+  "layout": "orbit-map",
+  "eyebrow": "System map · 003",
+  "titleLead": "The AI content",
+  "titleAccent": "system that compounds",
+  "subtitle": "Five connected parts turn expertise into a repeatable content loop.",
+  "inputLabel": "Core material",
+  "inputTags": ["Expertise", "Stories", "Proof", "Offers"],
+  "outputLabel": "Repeatable content",
+  "steps": [
+    {
+      "phase": "Source",
+      "title": "Build a source of truth",
+      "description": "Keep your strongest ideas, stories, proof and offers in one trusted library.",
+      "output": "Source ready",
+      "visual": "source"
+    },
+    {
+      "phase": "Insight",
+      "title": "Capture useful angles",
+      "description": "Turn recurring questions and observations into specific content angles.",
+      "output": "Angles saved",
+      "visual": "story"
+    },
+    {
+      "phase": "Format",
+      "title": "Route ideas by format",
+      "description": "Match each angle to the post, video, email or infographic that serves it best.",
+      "output": "Formats chosen",
+      "visual": "layout"
+    },
+    {
+      "phase": "Publish",
+      "title": "Run a consistent cadence",
+      "description": "Publish from the system without forcing every idea into the same template.",
+      "output": "Cadence active",
+      "visual": "motion"
+    },
+    {
+      "phase": "Learn",
+      "title": "Feed signals back in",
+      "description": "Use replies, saves and qualified conversations to improve future angles.",
+      "output": "System learning",
+      "visual": "export"
+    }
+  ],
+  "metrics": [
+    {"value": "1 SOURCE", "label": "Trusted ideas"},
+    {"value": "5 LOOPS", "label": "Connected workflow"},
+    {"value": "WEEKLY", "label": "Improves with feedback"}
+  ],
+  "footerLeft": "Build a system, not a queue.",
+  "footerRight": "CONTENT OS",
+  "cta": "SAVE THE MAP",
+  "footerMode": "metrics",
+  "caption": "Most content systems are really just publishing queues. A useful system keeps the source, angles, formats, cadence and feedback connected. That is what makes the output improve instead of merely increasing. This map shows the five parts. Save it before building your next content workflow."
+}

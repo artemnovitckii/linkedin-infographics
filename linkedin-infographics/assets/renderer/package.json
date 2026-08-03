@@ -1,0 +1,35 @@
+{
+  "name": "linkedin-infographic-renderer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "check": "tsc --noEmit && npm run check:examples",
+    "check:examples": "tsx scripts/validate-examples.ts",
+    "render": "tsx scripts/render.ts",
+    "render:meta": "tsx scripts/render.ts examples/meta-linkedin-infographics.json ../../../output/meta-linkedin-infographics",
+    "wireframes": "tsx scripts/render-wireframes.ts ../layout-wireframes.png",
+    "layout:previews": "tsx scripts/render-layout-previews.ts ../../../output/layout-previews"
+  },
+  "dependencies": {
+    "@fontsource-variable/bricolage-grotesque": "5.3.0",
+    "@fontsource-variable/ibm-plex-sans": "5.3.0",
+    "@fontsource/ibm-plex-mono": "5.3.0",
+    "@remotion/bundler": "4.0.504",
+    "@remotion/renderer": "4.0.504",
+    "@remotion/zod-types": "4.0.504",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "remotion": "4.0.504",
+    "zod": "3.22.3"
+  },
+  "devDependencies": {
+    "@remotion/cli": "4.0.504",
+    "@types/node": "24.10.0",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "tsx": "4.23.5",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "webinar-content-engine",
+  "layout": "split-engine",
+  "eyebrow": "Content engine · 002",
+  "titleLead": "Turn one webinar",
+  "titleAccent": "into a content engine",
+  "subtitle": "Turn one recording into useful content with a repeatable workflow.",
+  "inputLabel": "Source pack",
+  "inputTags": ["Recording", "Transcript", "Slides", "Offer"],
+  "outputLabel": "Content batch ready",
+  "steps": [
+    {
+      "phase": "Capture",
+      "title": "Collect the source",
+      "description": "Pull the recording, transcript, slides and offer into one working brief.",
+      "output": "Brief ready",
+      "visual": "source"
+    },
+    {
+      "phase": "Extract",
+      "title": "Find the strongest ideas",
+      "description": "Mark the claims, stories and examples that can stand alone without extra context.",
+      "output": "Ideas selected",
+      "visual": "story"
+    },
+    {
+      "phase": "Shape",
+      "title": "Match ideas to formats",
+      "description": "Assign each useful idea to the post, clip, email or visual it suits best.",
+      "output": "Formats mapped",
+      "visual": "layout"
+    },
+    {
+      "phase": "Produce",
+      "title": "Create the asset batch",
+      "description": "Write and package the selected formats with one consistent point of view.",
+      "output": "Batch created",
+      "visual": "motion"
+    },
+    {
+      "phase": "Publish",
+      "title": "Ship and learn weekly",
+      "description": "Publish the batch, collect audience signals and feed the lessons into the next run.",
+      "output": "Loop active",
+      "visual": "export"
+    }
+  ],
+  "metrics": [
+    {"value": "1 RECORDING", "label": "Single source"},
+    {"value": "5 FORMATS", "label": "Matched to the idea"},
+    {"value": "1 WORKFLOW", "label": "Improves every week"}
+  ],
+  "footerLeft": "Build once. Reuse every week.",
+  "footerRight": "CONTENT ENGINE",
+  "cta": "SAVE THIS",
+  "footerMode": "metrics",
+  "caption": "One webinar can become more than one post. The useful part is not cutting the same recording into random pieces. It is finding the strongest ideas, matching each one to the right format, and using the response to improve the next batch. This infographic shows the five-step content engine. Save it for your next recording."
+}

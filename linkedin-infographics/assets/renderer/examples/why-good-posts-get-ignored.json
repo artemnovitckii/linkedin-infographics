@@ -1,0 +1,58 @@
+{
+  "slug": "why-good-posts-get-ignored",
+  "layout": "editorial-stack",
+  "eyebrow": "Editorial teardown · 004",
+  "titleLead": "Why useful posts",
+  "titleAccent": "still get ignored",
+  "subtitle": "Most weak posts lose attention before the useful part ever appears.",
+  "inputLabel": "Weak signal",
+  "inputTags": ["Generic hook", "Buried proof", "Dense copy", "Two CTAs"],
+  "outputLabel": "Clear post",
+  "steps": [
+    {
+      "phase": "Hook",
+      "title": "Lead with the tension",
+      "description": "Open with the problem, result or disagreement that earns the next line.",
+      "output": "Attention earned",
+      "visual": "story"
+    },
+    {
+      "phase": "Proof",
+      "title": "Show proof immediately",
+      "description": "Use a firsthand result, concrete example or source before making a broad claim.",
+      "output": "Claim grounded",
+      "visual": "source"
+    },
+    {
+      "phase": "Value",
+      "title": "Make one useful point",
+      "description": "Give each section one job so the reader never has to untangle the lesson.",
+      "output": "Idea focused",
+      "visual": "template"
+    },
+    {
+      "phase": "Edit",
+      "title": "Cut every repeat",
+      "description": "Remove setup, summaries and filler that restate something the reader already knows.",
+      "output": "Copy tightened",
+      "visual": "layout"
+    },
+    {
+      "phase": "Action",
+      "title": "End with one action",
+      "description": "Ask for one clear next step that follows naturally from the value delivered.",
+      "output": "CTA clear",
+      "visual": "export"
+    }
+  ],
+  "metrics": [
+    {"value": "1 HOOK", "label": "Earns the next line"},
+    {"value": "1 IDEA", "label": "Per content block"},
+    {"value": "1 CTA", "label": "One clear action"}
+  ],
+  "footerLeft": "Useful is not enough.",
+  "footerRight": "ATTENTION FIRST",
+  "cta": "SAVE THIS",
+  "footerMode": "metrics",
+  "caption": "Useful information is not automatically useful content. If the proof is buried, the copy repeats itself, or the post asks for several actions, the reader leaves before reaching the value. This infographic is a five-part editing checklist for making a useful post easier to notice and act on."
+}
